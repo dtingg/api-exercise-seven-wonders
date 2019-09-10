@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Tue, 10 Sep 2019 17:54:08 GMT
+      - Tue, 10 Sep 2019 18:15:03 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -27,8 +27,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d302fec53faedbc9e0a5792f2b952b45b1568138048; expires=Wed, 09-Sep-20
-        17:54:08 GMT; path=/; domain=.locationiq.org; HttpOnly
+      - __cfduid=de25e05cd49367f255937771b1031078b1568139303; expires=Wed, 09-Sep-20
+        18:15:03 GMT; path=/; domain=.locationiq.org; HttpOnly
       X-Powered-By:
       - LocationIQ
       Access-Control-Allow-Origin:
@@ -38,14 +38,14 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 514343f1b94ac991-SEA
+      - 51436296d90d2aa7-SEA
     body:
       encoding: ASCII-8BIT
       string: '[{"place_id":"76491632","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"4420397","boundingbox":["29.9781249","29.9801279","31.1330737","31.1354031"],"lat":"29.9791264","lon":"31.1342383751015","display_name":"Great
         Pyramid of Giza, Cause way, Nazlet Al Siman and Al Sisi, Kom al Akhdar, Giza,
         Giza Governorate, 12561, Egypt","class":"tourism","type":"attraction","importance":0.97861371244118,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/poi_point_of_interest.p.20.png"}]'
     http_version: 
-  recorded_at: Tue, 10 Sep 2019 17:54:08 GMT
+  recorded_at: Tue, 10 Sep 2019 18:15:03 GMT
 - request:
     method: get
     uri: https://us1.locationiq.org/v1/search.php?format=json&key=<LOCATION_IQ_TOKEN>&q=Hanging%20Gardens%20of%20Babylon
@@ -65,7 +65,7 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Tue, 10 Sep 2019 17:54:08 GMT
+      - Tue, 10 Sep 2019 18:15:03 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -73,8 +73,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d33c2fea2a3d27490d7b0bdabfeb8b1e31568138048; expires=Wed, 09-Sep-20
-        17:54:08 GMT; path=/; domain=.locationiq.org; HttpOnly
+      - __cfduid=d4c67413ffb41ba30e6aecd20ea4d927d1568139303; expires=Wed, 09-Sep-20
+        18:15:03 GMT; path=/; domain=.locationiq.org; HttpOnly
       X-Powered-By:
       - LocationIQ
       Access-Control-Allow-Origin:
@@ -84,12 +84,12 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 514343f2cbf1bb64-SEA
+      - 5143629878babccc-SEA
     body:
       encoding: ASCII-8BIT
       string: '{"error":"Unable to geocode"}'
     http_version: 
-  recorded_at: Tue, 10 Sep 2019 17:54:08 GMT
+  recorded_at: Tue, 10 Sep 2019 18:15:03 GMT
 - request:
     method: get
     uri: https://us1.locationiq.org/v1/search.php?format=json&key=<LOCATION_IQ_TOKEN>&q=Colossus%20of%20Rhodes
@@ -105,11 +105,11 @@ http_interactions:
       - Ruby
   response:
     status:
-      code: 429
-      message: Too Many Requests
+      code: 200
+      message: OK
     headers:
       Date:
-      - Tue, 10 Sep 2019 17:54:08 GMT
+      - Tue, 10 Sep 2019 18:15:04 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -117,8 +117,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d112f29b099b241335d7ab9fa61430e601568138048; expires=Wed, 09-Sep-20
-        17:54:08 GMT; path=/; domain=.locationiq.org; HttpOnly
+      - __cfduid=d44ea6fa30438b4879cea4394bab11ff11568139303; expires=Wed, 09-Sep-20
+        18:15:03 GMT; path=/; domain=.locationiq.org; HttpOnly
       X-Powered-By:
       - LocationIQ
       Access-Control-Allow-Origin:
@@ -128,12 +128,15 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 514343f51f71c979-SEA
+      - 51436299df30bc72-SEA
     body:
-      encoding: UTF-8
-      string: '{"error":"Rate Limited Second"}'
+      encoding: ASCII-8BIT
+      string: '[{"place_id":"23194877","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"2363415795","boundingbox":["36.3396576","36.3397576","28.2002664","28.2003664"],"lat":"36.3397076","lon":"28.2003164","display_name":"Colossus,
+        \u039a\u03b1\u03bb\u03bb\u03b9\u03b8\u03ad\u03b1\u03c2, Faliraki, \u0394\u03ae\u03bc\u03bf\u03c2
+        \u03a1\u03cc\u03b4\u03bf\u03c5, Rhodes Regional Unit, South Aegean Region,
+        Aegean, 85100, Greece","class":"amenity","type":"bar","importance":0.211,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/food_bar.p.20.png"}]'
     http_version: 
-  recorded_at: Tue, 10 Sep 2019 17:54:08 GMT
+  recorded_at: Tue, 10 Sep 2019 18:15:04 GMT
 - request:
     method: get
     uri: https://us1.locationiq.org/v1/search.php?format=json&key=<LOCATION_IQ_TOKEN>&q=Pharos%20of%20Alexandria
@@ -149,11 +152,11 @@ http_interactions:
       - Ruby
   response:
     status:
-      code: 429
-      message: Too Many Requests
+      code: 200
+      message: OK
     headers:
       Date:
-      - Tue, 10 Sep 2019 17:54:09 GMT
+      - Tue, 10 Sep 2019 18:15:04 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -161,8 +164,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d8894371cb9f19f5bac81059cb6ac7fec1568138048; expires=Wed, 09-Sep-20
-        17:54:08 GMT; path=/; domain=.locationiq.org; HttpOnly
+      - __cfduid=d0bda119fcf23590837e923d82376f0c71568139304; expires=Wed, 09-Sep-20
+        18:15:04 GMT; path=/; domain=.locationiq.org; HttpOnly
       X-Powered-By:
       - LocationIQ
       Access-Control-Allow-Origin:
@@ -172,12 +175,13 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 514343f5eab6c99d-SEA
+      - 5143629b4fd4e386-SEA
     body:
-      encoding: UTF-8
-      string: '{"error":"Rate Limited Second"}'
+      encoding: ASCII-8BIT
+      string: '[{"place_id":"145210117","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"255811087","boundingbox":["30.9478905","30.9480211","29.5234869","29.5236384"],"lat":"30.94795585","lon":"29.5235626430011","display_name":"Pharos
+        of Abusir, North Coast Road, Km 110, Matrouh Governorate, Egypt","class":"historic","type":"archaeological_site","importance":0.40108919297929,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/tourist_archaeological2.p.20.png"}]'
     http_version: 
-  recorded_at: Tue, 10 Sep 2019 17:54:09 GMT
+  recorded_at: Tue, 10 Sep 2019 18:15:04 GMT
 - request:
     method: get
     uri: https://us1.locationiq.org/v1/search.php?format=json&key=<LOCATION_IQ_TOKEN>&q=Statue%20of%20Zeus%20at%20Olympia
@@ -193,11 +197,11 @@ http_interactions:
       - Ruby
   response:
     status:
-      code: 200
-      message: OK
+      code: 429
+      message: Too Many Requests
     headers:
       Date:
-      - Tue, 10 Sep 2019 17:54:09 GMT
+      - Tue, 10 Sep 2019 18:15:04 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -205,8 +209,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d55aa9a8ba022131cf4e7dc51bef19ce71568138049; expires=Wed, 09-Sep-20
-        17:54:09 GMT; path=/; domain=.locationiq.org; HttpOnly
+      - __cfduid=d8f7b92cfd00cec27a22218a914da23701568139304; expires=Wed, 09-Sep-20
+        18:15:04 GMT; path=/; domain=.locationiq.org; HttpOnly
       X-Powered-By:
       - LocationIQ
       Access-Control-Allow-Origin:
@@ -216,15 +220,12 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 514343f6bfd77a15-SEA
+      - 5143629cee51c995-SEA
     body:
-      encoding: ASCII-8BIT
-      string: '[{"place_id":"50523958","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"3988791718","boundingbox":["37.6378588","37.6379588","21.6299563","21.6300563"],"lat":"37.6379088","lon":"21.6300063","display_name":"Statue
-        of Zeus at Olympia, \u0395\u039f74, Ancient Olympia, Ancient Olympia Municipality,
-        Elis Regional Unit, West Greece Region, Peloponnese, West Greece and Ionian
-        Sea, 27065, Greece","class":"tourism","type":"artwork","importance":0.88151155186229,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/tourist_art_gallery2.p.20.png"}]'
+      encoding: UTF-8
+      string: '{"error":"Rate Limited Second"}'
     http_version: 
-  recorded_at: Tue, 10 Sep 2019 17:54:09 GMT
+  recorded_at: Tue, 10 Sep 2019 18:15:04 GMT
 - request:
     method: get
     uri: https://us1.locationiq.org/v1/search.php?format=json&key=<LOCATION_IQ_TOKEN>&q=Temple%20of%20Artemis
@@ -240,11 +241,11 @@ http_interactions:
       - Ruby
   response:
     status:
-      code: 200
-      message: OK
+      code: 429
+      message: Too Many Requests
     headers:
       Date:
-      - Tue, 10 Sep 2019 17:54:09 GMT
+      - Tue, 10 Sep 2019 18:15:04 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -252,8 +253,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d8bd15e44f30074c1c22950e067535aab1568138049; expires=Wed, 09-Sep-20
-        17:54:09 GMT; path=/; domain=.locationiq.org; HttpOnly
+      - __cfduid=d8e0074a6ca467b9d2fb38bd1f0d6a1841568139304; expires=Wed, 09-Sep-20
+        18:15:04 GMT; path=/; domain=.locationiq.org; HttpOnly
       X-Powered-By:
       - LocationIQ
       Access-Control-Allow-Origin:
@@ -263,28 +264,12 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 514343f82e2ec995-SEA
+      - 5143629ddaef29d5-SEA
     body:
-      encoding: ASCII-8BIT
-      string: '[{"place_id":"69215418","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"5919442848","boundingbox":["40.7800586","40.7801586","24.7147122","24.7148122"],"lat":"40.7801086","lon":"24.7147622","display_name":"The
-        Temple of Artemis, \u0397\u03c1\u03b1\u03ba\u03bb\u03b5\u03af\u03bf\u03c5,
-        Thassos, \u0394\u03ae\u03bc\u03bf\u03c2 \u0398\u03ac\u03c3\u03bf\u03c5, Thasos
-        Regional Unit, East Macedonia and Thrace Region, Macedonia - Thrace, 64004,
-        Greece","class":"historic","type":"archaeological_site","importance":0.301,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/tourist_archaeological2.p.20.png"},{"place_id":"108859291","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"115555874","boundingbox":["32.2816819","32.2819422","35.8918544","35.8921195"],"lat":"32.2818476","lon":"35.8919851222059","display_name":"Temple
-        of Artemis, South Bridge, Jerash, Jarash, Jordan","class":"building","type":"ruins","importance":0.301},{"place_id":"71684585","licence":"https:\/\/locationiq.com\/attribution","osm_type":"node","osm_id":"6174779109","boundingbox":["32.2815586","32.2816586","35.891071","35.891171"],"lat":"32.2816086","lon":"35.891121","display_name":"The
-        Temple of Artemis, South Bridge, Jerash, Jarash, Jordan","class":"tourism","type":"information","importance":0.301,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/amenity_information.p.20.png"},{"place_id":"144801304","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"254316539","boundingbox":["38.4787219","38.4797693","28.0301613","28.0320213"],"lat":"38.4792644","lon":"28.0310821761734","display_name":"Temple
-        of Artemis, \u0130zmir-U\u015fak Yolu, Ahmetli Merkez Mahallesi, Ahmetli,
-        Manisa, Aegean Region, 45310, Turkey","class":"tourism","type":"attraction","importance":0.301,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/poi_point_of_interest.p.20.png"},{"place_id":"178728640","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"426829731","boundingbox":["37.8529695","37.8535548","27.5268672","27.5278652"],"lat":"37.85326215","lon":"27.5273661921929","display_name":"Temple
-        of Artemis, \u0130zmir - S\u00f6ke Yolu, Tekin, Germencik, Ayd\u0131n, Aegean
-        Region, 09700, Turkey","class":"historic","type":"ruins","importance":0.301,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/tourist_ruin.p.20.png"},{"place_id":"126141317","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"183387860","boundingbox":["38.4819812","38.4823656","28.027492","28.0283853"],"lat":"38.48217335","lon":"28.0279386484865","display_name":"Temple
-        of Artemis, \u0130zmir-U\u015fak Yolu, Ahmetli Merkez Mahallesi, Ahmetli,
-        Manisa, Aegean Region, 45310, Turkey","class":"historic","type":"ruins","importance":0.301,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/tourist_ruin.p.20.png"},{"place_id":"199922258","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"560511793","boundingbox":["37.4006812","37.4008183","25.2662148","25.2664119"],"lat":"37.40074975","lon":"25.2663133407744","display_name":"Temple
-        of Artemis, Sacred Road, Agios Ioannis Diakoftis, Municipality of Mykonos,
-        Mykonos Regional Unit, South Aegean Region, Aegean, 84600, Greece","class":"historic","type":"ruins","importance":0.301,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/tourist_ruin.p.20.png"},{"place_id":"142371820","licence":"https:\/\/locationiq.com\/attribution","osm_type":"way","osm_id":"244420322","boundingbox":["37.6219278","37.6221595","26.0595614","26.059883"],"lat":"37.6220436","lon":"26.0597222063747","display_name":"Temple
-        Of Artemis, \u03a7592, Tsakades, \u0394\u03ae\u03bc\u03bf\u03c2 \u0399\u03ba\u03b1\u03c1\u03af\u03b1\u03c2,
-        Regional Unit of Ikaria, North Aegean Region, Aegean, 83301, Greece","class":"historic","type":"ruins","importance":0.301,"icon":"https:\/\/locationiq.org\/static\/images\/mapicons\/tourist_ruin.p.20.png"}]'
+      encoding: UTF-8
+      string: '{"error":"Rate Limited Second"}'
     http_version: 
-  recorded_at: Tue, 10 Sep 2019 17:54:09 GMT
+  recorded_at: Tue, 10 Sep 2019 18:15:04 GMT
 - request:
     method: get
     uri: https://us1.locationiq.org/v1/search.php?format=json&key=<LOCATION_IQ_TOKEN>&q=Mausoleum%20at%20Halicarnassus
@@ -304,7 +289,7 @@ http_interactions:
       message: Too Many Requests
     headers:
       Date:
-      - Tue, 10 Sep 2019 17:54:09 GMT
+      - Tue, 10 Sep 2019 18:15:04 GMT
       Content-Type:
       - application/json; charset=UTF-8
       Transfer-Encoding:
@@ -312,8 +297,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d8bd15e44f30074c1c22950e067535aab1568138049; expires=Wed, 09-Sep-20
-        17:54:09 GMT; path=/; domain=.locationiq.org; HttpOnly
+      - __cfduid=dbbe3da0e49151fa02af72fb8ce7f46e91568139304; expires=Wed, 09-Sep-20
+        18:15:04 GMT; path=/; domain=.locationiq.org; HttpOnly
       X-Powered-By:
       - LocationIQ
       Access-Control-Allow-Origin:
@@ -323,10 +308,10 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 514343f9b9b4c995-SEA
+      - 5143629ecccabc84-SEA
     body:
       encoding: UTF-8
       string: '{"error":"Rate Limited Second"}'
     http_version: 
-  recorded_at: Tue, 10 Sep 2019 17:54:09 GMT
+  recorded_at: Tue, 10 Sep 2019 18:15:04 GMT
 recorded_with: VCR 5.0.0
