@@ -26,7 +26,7 @@ describe "get_locations" do
     lat = @location_hash[location]["lat"]
     lon = @location_hash[location]["lon"]
     
-    assert_nil(lat)
-    assert_nil(lon)
+    expect(lat).must_be_nil
+    expect(lon).must_be_nil
   end
 end
