@@ -5,7 +5,7 @@ Dotenv.load
 
 seven_wonders = ["Great Pyramid of Giza", "Hanging Gardens of Babylon", "Colossus of Rhodes", "Pharos of Alexandria", "Statue of Zeus at Olympia", "Temple of Artemis", "Mausoleum at Halicarnassus"]
 
-BASE_URL = "https://us1.locationiq.org/v1/search.php"
+BASE_URL = "https://us1.locationiq.com/v1/search.php"
 
 seven_wonders_locations = seven_wonders.map do |wonder|
   sleep(0.2)
